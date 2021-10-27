@@ -1,0 +1,54 @@
+@media screen and (max-width: 908px) {
+    .banner .content .text h1 {
+        font-size: 45px;
+        line-height: 0px;
+        color:red;
+    }
+  
+    .banner .content .text p{
+        width: 80%;
+        line-height: 24px
+    }
+      
+  }
+  
+  
+  @media screen and (max-width: 675px) {
+  
+      .banner .content .text h1 {
+          font-size: 25px;
+          line-height: 5px;
+          margin-bottom: 0px;
+          color: rgb(52, 49, 133);
+          
+      }
+    
+      .banner .content .text p{
+          font-size: 15px ;
+          width: 100%;
+          line-height: 48px
+      }
+        
+    }
+  
+  
+    
+  @media screen and (max-width: 380px) {
+     
+  
+      .banner .content .text h1 {
+          font-size: 25px;
+          line-height: 5px;
+          margin-bottom: -3px;
+          display: inline;
+         
+          
+      }
+    
+      .banner .content .text p{
+          font-size: 15px ;
+          width: 100%;
+          line-height: 17px
+      }
+        
+    }
