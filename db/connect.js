@@ -2,7 +2,7 @@ const mongoose=require('mongoose')
 
 
 
-mongoose.connect('mongodb://localhost:27017/userData',{
+mongoose.connect('mongodb+srv://admin-abulkalam:abulkalam123@clustertest.gvmyx.mongodb.net/believeShopDatabase?retryWrites=true&w=majority',{
     useNewUrlParser:true,
     useUnifiedTopology:true
 }).then(()=>{
